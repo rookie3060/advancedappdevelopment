@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+.footer {
+  font-family:Catamaran;
+  color:#0BDA51;
+    background-color: #333; /* Dark background color */
+    /* Text color */
+    padding: 50px 0; /* Padding at the top and bottom */
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    padding: 20px;
+  }
+  
+  .about h2 {
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .contact span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .socials a {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links li {
+    margin-bottom: 10px;
+  }
+  
+  .links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-bottom-text {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
