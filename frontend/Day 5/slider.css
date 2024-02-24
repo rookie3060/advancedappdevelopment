@@ -1,0 +1,95 @@
+.services-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .services-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+  }
+  
+  .sidebar {
+    width: 20%;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .sidebar h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .testimonial-card,
+  .event-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .testimonial-card:hover,
+  .event-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .testimonial-card p:last-child,
+  .event-card p:last-child {
+    margin-top: 10px;
+  }
+  
+  .testimonial-card p:last-child {
+    font-style: italic;
+  }
+  
+  .event-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .event-card p {
+    margin-bottom: 5px;
+  }
+  
+  /* Navbar and Footer styles */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .navbar li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
