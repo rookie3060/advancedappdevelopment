@@ -1,0 +1,164 @@
+/* Profile container */
+.profile-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Profile form */
+  .profile-form {
+    margin-top: 20px;
+  }
+  
+  .profile-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .profile-form input[type="text"],
+  .profile-form input[type="email"],
+  .profile-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .profile-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .profile-form button:hover {
+    background-color: #555;
+  }
+.Admin-profile{
+    margin-top: 90px;
+    margin-bottom: 20px;
+    /* padding: 20px; */
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
+}  
+
+   
+/* Top Navbar */
+.top-navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .top-navbar .logo {
+    font-size: 20px;
+  }
+  
+  .top-navbar .nav-links {
+    list-style-type: none;
+    display: flex;
+    
+  }
+  
+  .top-navbar .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .top-navbar .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .top-navbar .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Side Navbar */
+  .side-navbar {
+    background-color: #d3d3d3;
+    width: 200px;
+    padding: 20px;
+    position: fixed;
+    top: 96px;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .side-navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .side-navbar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .side-navbar ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .side-navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  .main-content {
+    margin-left: 240px; /* Adjust based on the width of side navbar */
+    padding: 20px;
+  }
+  
+  /* Form styles */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form div {
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }

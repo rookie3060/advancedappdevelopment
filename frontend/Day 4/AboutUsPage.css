@@ -1,0 +1,68 @@
+/* About Us Page */
+.about-us-page {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Top Navbar */
+.top-navbar {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-navbar .logo {
+    font-size: 20px;
+}
+
+.top-navbar .nav-links ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.top-navbar .nav-links li {
+    margin-right: 20px;
+}
+
+.top-navbar .nav-links li a {
+    color: #f2f1f1;
+    text-decoration: none;
+}
+
+.top-navbar .nav-links li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+.main-content {
+    margin-top: 20px;
+}
+
+.about-section {
+    background-color: #63b318;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.about-section h2 {
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    line-height: 1.5;
+}
+
+/* Footer */
+.footer {
+    background-color:#00ed4f;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
