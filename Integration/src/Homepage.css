@@ -1,0 +1,106 @@
+/* Homepage.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f31919;
+  color: #333;
+  background-image: url("https://images.pexels.com/photos/2165688/pexels-photo-2165688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+  color: #333;
+  font-size: 2.5em;
+}
+
+section {
+  margin: 4px 0;
+  padding: 20px;
+  background-color: #ffffff7a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #28a32e79;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #28a32f;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffcc00;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a32f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ffcc00;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  
+  position: relative;
+}
+
+/* Social media icons */
+.social-icons {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #28a32f;
+}
